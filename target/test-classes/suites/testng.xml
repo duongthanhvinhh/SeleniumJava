@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="First Suite" verbose="1">
+    <test name="Sanity Test">
+        <classes>
+            <class name="vinhtester.com.testNGfirstTry.runtest">
+                <methods>
+                    <include name="openProjectPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Regression Test">
+        <packages>
+            <package name="vinhtester.com.firstExercise"/>
+            <package name="vinhtester.com.testNGfirstTry"/>
+        </packages>
+    </test>
+</suite>
