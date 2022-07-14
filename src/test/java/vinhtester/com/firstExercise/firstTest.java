@@ -3,6 +3,7 @@ package vinhtester.com.firstExercise;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -27,7 +28,8 @@ public class firstTest {
         String a = driver.getTitle();
         System.out.println("Title of the Page is: "+ a );
         Thread.sleep(8000);
-        driver.findElement(By.xpath("//span[contains(text(),'Dự án')]")).click();
+        WebElement x = driver.findElement(By.xpath("//span[contains(text(),'Dự án')]"));
+        x.click();
         driver.findElement(By.xpath("//div[@class='card-header-right']//a[contains(.,'Thêm mới')]")).click();
         driver.findElement(By.xpath("//div[@class='form-group']/descendant::input[@placeholder='Tiêu đề']")).sendKeys("Duong Thanh Vinh");
         driver.findElement(By.xpath("//span[@id='select2-client_id-container']")).click();
