@@ -26,7 +26,7 @@ public class firstTest {
         Thread.sleep(3000);
         String a = driver.getTitle();
         System.out.println("Title of the Page is: "+ a );
-        Thread.sleep(5000);
+        Thread.sleep(8000);
         driver.findElement(By.xpath("//span[contains(text(),'Dự án')]")).click();
         driver.findElement(By.xpath("//div[@class='card-header-right']//a[contains(.,'Thêm mới')]")).click();
         driver.findElement(By.xpath("//div[@class='form-group']/descendant::input[@placeholder='Tiêu đề']")).sendKeys("Duong Thanh Vinh");
