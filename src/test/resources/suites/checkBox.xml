@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="checkBox suite" verbose="1">
+    <test name="Sanity Test">
+        <classes>
+            <class name="vinhtester.com.LearnWebElement.checkBox">
+                <methods>
+                    <include name="singleCheckbox"/>
+                    <include name="multipleCheckbox"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
