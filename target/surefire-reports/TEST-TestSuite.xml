@@ -1,168 +1,170 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="1" name="TestSuite" time="27.03" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="TestSuite" time="28.099" errors="0" skipped="0">
   <properties>
-    <property name="JOB_NAME" value="SeleniumFirstStart"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/3/display/redirect?page=tests"/>
-    <property name="NUMBER_OF_PROCESSORS" value="8"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs"/>
-    <property name="JENKINS_HOME" value="C:\Users\TMA\.jenkins"/>
-    <property name="HUDSON_SERVER_COOKIE" value="6c5972fa87afe455"/>
-    <property name="POM_ARTIFACTID" value="vinhtester.com"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
-    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
-    <property name="POM_DISPLAYNAME" value="vinhtester.com"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="TEMP" value="C:\Users\TMA\AppData\Local\Temp"/>
-    <property name="NODE_LABELS" value="built-in"/>
-    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
-    <property name="IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;"/>
-    <property name="user.name" value="TMA"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="ProgramFiles" value="C:\Program Files"/>
-    <property name="PROMPT" value="$P$G"/>
-    <property name="user.language" value="en"/>
-    <property name="JOB_BASE_NAME" value="SeleniumFirstStart"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/3/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#3"/>
-    <property name="OneDrive" value="C:\Users\TMA\OneDrive"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
-    <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="LOCALAPPDATA" value="C:\Users\TMA\AppData\Local"/>
-    <property name="java.version" value="17.0.3.1"/>
-    <property name="user.timezone" value="Asia/Bangkok"/>
-    <property name="PROCESSOR_LEVEL" value="6"/>
-    <property name="USERNAME" value="TMA"/>
-    <property name="sun.arch.data.model" value="64"/>
-    <property name="NODE_NAME" value="built-in"/>
-    <property name="BUILD_ID" value="3"/>
-    <property name="CLIENTNAME" value="DTVINH"/>
-    <property name="sun.cpu.isalist" value="amd64"/>
-    <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="maven.conf" value="C:\apache-maven-3.8.6-bin\conf"/>
-    <property name="HOMEDRIVE" value="C:"/>
-    <property name="file.separator" value="\"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="=::" value="::\"/>
-    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
-    <property name="user.country" value="US"/>
-    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/3/display/redirect"/>
-    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
-    <property name="TMP" value="C:\Users\TMA\AppData\Local\Temp"/>
-    <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/3/display/redirect?page=artifacts"/>
-    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
-    <property name="user.variant" value=""/>
-    <property name="GIT_PREVIOUS_COMMIT" value="2bb847d3fc77172978839e9c704dcc6779f8efa0"/>
-    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
-    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/display/redirect"/>
-    <property name="USERDOMAIN_ROAMINGPROFILE" value="TMCHIEN"/>
-    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.3.1"/>
-    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
-    <property name="HOMEPATH" value="\Users\TMA"/>
-    <property name="POM_PACKAGING" value="jar"/>
-    <property name="COMPUTERNAME" value="TMCHIEN"/>
-    <property name="user.script" value=""/>
-    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
-    <property name="POM_GROUPID" value="vinhtester.com"/>
-    <property name="user.home" value="C:\Users\TMA"/>
-    <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-SeleniumFirstStart-3"/>
-    <property name="JENKINS_SERVER_COOKIE" value="6c5972fa87afe455"/>
-    <property name="HUDSON_URL" value="http://localhost:8080/"/>
-    <property name="ProgramData" value="C:\ProgramData"/>
-    <property name="java.version.date" value="2022-04-22"/>
-    <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="USERPROFILE" value="C:\Users\TMA"/>
-    <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.8.6-bin/bin;C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\apache-maven-3.8.6-bin\bin;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\;C:\Users\TMA\AppData\Local\Microsoft\WindowsApps;;C:\Users\TMA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;;."/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="APPDATA" value="C:\Users\TMA\AppData\Roaming"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="maven.home" value="C:\apache-maven-3.8.6-bin"/>
-    <property name="java.class.path" value="C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.8.6-bin\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.8.6-bin/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.8.6-bin C:\Users\TMA\.jenkins\war\WEB-INF\lib\remoting-4.13.2.jar C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 56376"/>
-    <property name="native.encoding" value="Cp1252"/>
-    <property name="Path" value="C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\apache-maven-3.8.6-bin\bin;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\;C:\Users\TMA\AppData\Local\Microsoft\WindowsApps;;C:\Users\TMA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;"/>
-    <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="jansi.mode" value="strip"/>
-    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-17.0.3.1/bin"/>
-    <property name="SESSIONNAME" value="RDP-Tcp#30"/>
-    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
-    <property name="java.vm.specification.version" value="17"/>
-    <property name="M2_HOME" value="C:\apache-maven-3.8.6-bin"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.os.patch.level" value=""/>
-    <property name="OS" value="Windows_NT"/>
-    <property name="=D:" value="D:\AutomationVinh\vinhtester.com"/>
-    <property name="CI" value="true"/>
-    <property name="java.io.tmpdir" value="C:\Users\TMA\AppData\Local\Temp\"/>
-    <property name="HUDSON_HOME" value="C:\Users\TMA\.jenkins"/>
-    <property name="PATH+MAVEN" value="C:\apache-maven-3.8.6-bin/bin"/>
-    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumFirstStart/3/"/>
-    <property name="SystemRoot" value="C:\WINDOWS"/>
-    <property name="os.arch" value="amd64"/>
-    <property name="user.dir" value="D:\AutomationVinh\vinhtester.com"/>
-    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumFirstStart/"/>
     <property name="LOGONSERVER" value="\\TMCHIEN"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
+    <property name="=::" value="::\"/>
     <property name="USERDOMAIN" value="TMCHIEN"/>
-    <property name="MAVEN_HOME" value="C:\apache-maven-3.8.6-bin"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="17.0.3.1"/>
+    <property name="JOB_NAME" value="SeleniumFirstStart"/>
+    <property name="COMPUTERNAME" value="TMCHIEN"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="user.name" value="TMA"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\TMA\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/7/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-SeleniumFirstStart-7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\apache-maven-3.8.6-bin C:\Users\TMA\.jenkins\war\WEB-INF\lib\remoting-4.13.2.jar C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 57136"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="6c5972fa87afe455"/>
+    <property name="=D:" value="D:\AutomationVinh\vinhtester.com"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\apache-maven-3.8.6-bin\bin;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\;C:\Users\TMA\AppData\Local\Microsoft\WindowsApps;;C:\Users\TMA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;"/>
+    <property name="GIT_COMMIT" value="4875a59e48cc0159b1bf86fcd1de6d03ee7df7b4"/>
+    <property name="java.io.tmpdir" value="C:\Users\TMA\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\TMA\AppData\Roaming"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\Endpoint Security\Logs"/>
+    <property name="user.language" value="en"/>
     <property name="line.separator" value="
 "/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="3"/>
-    <property name="PROCESSOR_REVISION" value="8e0a"/>
-    <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="GIT_BRANCH" value="origin/demo"/>
-    <property name="ProgramW6432" value="C:\Program Files"/>
-    <property name="windir" value="C:\WINDOWS"/>
-    <property name="GIT_COMMIT" value="c261d1c47e06baae397b9f99c0e578fb7c8353fa"/>
-    <property name="file.encoding" value="Cp1252"/>
-    <property name="SystemDrive" value="C:"/>
-    <property name="FLEXLM_TIMEOUT" value="1000000"/>
-    <property name="maven3.interceptor" value="C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
-    <property name="WORKSPACE_TMP" value="C:\Users\TMA\.jenkins\workspace\SeleniumFirstStart@tmp"/>
-    <property name="WORKSPACE" value="C:\Users\TMA\.jenkins\workspace\SeleniumFirstStart"/>
-    <property name="maven3.interceptor.common" value="C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
-    <property name="PSModulePath" value="C:\Program Files (x86)\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\AutoIt3\AutoItX"/>
-    <property name="java.specification.version" value="17"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumFirstStart/7/"/>
+    <property name="M2_HOME" value="C:\apache-maven-3.8.6-bin"/>
+    <property name="=C:" value="C:\Users\TMA"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="CI" value="true"/>
+    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="6c5972fa87afe455"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\TMA\.jenkins\workspace\SeleniumFirstStart@tmp"/>
+    <property name="MAVEN_HOME" value="C:\apache-maven-3.8.6-bin"/>
+    <property name="SESSIONNAME" value="RDP-Tcp#30"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="maven3.interceptor.common" value="C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="FLEXLM_TIMEOUT" value="1000000"/>
+    <property name="HOMEPATH" value="\Users\TMA"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_NUMBER" value="7"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven3.interceptor" value="C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\apache-maven-3.8.6-bin/bin;C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Java\jdk-17.0.3.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Program Files\Java\jdk-17.0.3.1\bin;C:\apache-maven-3.8.6-bin\bin;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\TMA\AppData\Local\Programs\Python\Python38-32\;C:\Users\TMA\AppData\Local\Microsoft\WindowsApps;;C:\Users\TMA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.3\bin;;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="vinhtester.com"/>
+    <property name="POM_ARTIFACTID" value="vinhtester.com"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumFirstStart/"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="4875a59e48cc0159b1bf86fcd1de6d03ee7df7b4"/>
+    <property name="OneDrive" value="C:\Users\TMA\OneDrive"/>
+    <property name="GIT_BRANCH" value="origin/demo"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/7/display/redirect"/>
+    <property name="VBOX_MSI_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="JENKINS_HOME" value="C:\Users\TMA\.jenkins"/>
+    <property name="BUILD_ID" value="7"/>
+    <property name="TEMP" value="C:\Users\TMA\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.3.1\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="CLIENTNAME" value="DTVINH"/>
+    <property name="HUDSON_HOME" value="C:\Users\TMA\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\apache-maven-3.8.6-bin/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="TMCHIEN"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/7/display/redirect?page=artifacts"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-17.0.3.1"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\TMA"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/display/redirect"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\TMA"/>
+    <property name="USERNAME" value="TMA"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="D:\AutomationVinh\vinhtester.com"/>
+    <property name="maven.conf" value="C:\apache-maven-3.8.6-bin\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\TMA\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="java.class.path" value="C:\Users\TMA\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\apache-maven-3.8.6-bin\boot\plexus-classworlds-2.6.0.jar;C:\apache-maven-3.8.6-bin/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\TMA\.jenkins\workspace\SeleniumFirstStart"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumFirstStart/7/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="17.0.3.1+2-LTS-6"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-17.0.3.1/bin"/>
+    <property name="=ExitCode" value="00000001"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\apache-maven-3.8.6-bin"/>
+    <property name="JOB_BASE_NAME" value="SeleniumFirstStart"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="POM_DISPLAYNAME" value="vinhtester.com"/>
     <property name="GIT_URL" value="https://github.com/duongthanhvinhh/SeleniumJava.git"/>
+    <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="vinhtester.com.firstExercise.firstTest" name="regressionTest" time="27.03">
+  <testcase classname="vinhtester.com.firstExercise.firstTest" name="regressionTest" time="28.099">
     <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]&quot;}
   (Session info: chrome=103.0.5060.114)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;TMCHIEN&apos;, ip: &apos;169.254.227.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1044f947e9d90274f58ff8231ad7e0f1, findElement {using=xpath, value=//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TMA\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56518/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1044f947e9d90274f58ff8231ad7e0f1" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]&quot;}
+Command: [e9e29a732f88f42de5d9fa39c55bca9b, findElement {using=xpath, value=//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TMA\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57175/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9e29a732f88f42de5d9fa39c55bca9b" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]&quot;}
   (Session info: chrome=103.0.5060.114)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
 System info: host: &apos;TMCHIEN&apos;, ip: &apos;169.254.227.185&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.3.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1044f947e9d90274f58ff8231ad7e0f1, findElement {using=xpath, value=//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TMA\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:56518}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56518/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1044f947e9d90274f58ff8231ad7e0f1
+Command: [e9e29a732f88f42de5d9fa39c55bca9b, findElement {using=xpath, value=//span[contains(text(),&apos;Dá»± Ã¡n&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\TMA\AppData\Local\...}, goog:chromeOptions: {debuggerAddress: localhost:57175}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57175/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9e29a732f88f42de5d9fa39c55bca9b
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -179,20 +181,20 @@ Session ID: 1044f947e9d90274f58ff8231ad7e0f1
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-	at vinhtester.com.firstExercise.firstTest.regressionTest(firstTest.java:30)
+	at vinhtester.com.firstExercise.firstTest.regressionTest(firstTest.java:31)
 </failure>
     <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@7946e1f4
 Title of the Page is: Trang ch? | HRM System
 </system-out>
     <system-err>[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 103.0.5060.53 (resolved driver for Chrome 103)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\TMA\.cache\selenium\chromedriver\win32\103.0.5060.53\chromedriver.exe
-Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 56655
+Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 64338
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Jul 15, 2022 12:53:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jul 15, 2022 10:05:25 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected upstream dialect: W3C
-Jul 15, 2022 12:53:13 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 15, 2022 10:05:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 INFO: Found exact CDP implementation for version 103
 </system-err>
   </testcase>
